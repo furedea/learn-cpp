@@ -1,5 +1,9 @@
 #include <iostream>
 
-int main(int, char**){
-    std::cout << "Hello, from learn-cpp!\n";
+int add(int a, int b) {
+    return a + b;
+}
+
+int main(int, char**) {
+    std::cout << "1 + 2 = " << add(1, 2) << std::endl;
 }
